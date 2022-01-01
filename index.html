@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nicolás Agostino">
+    <meta name="description" content="Alquiler de autos en Buenos Aires, Argentina. Precios económicos">
+    <meta name="keywords" content="alquiler de autos, rent a car, alquilar un auto, alquiler de autos, rent car, rentar autos">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/7fcd76d310.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Alquiler de autos - Surcar - Rent a car</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-nav">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logoo.png" class="img-fluid logo" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto font-20 font-pr mynav">
+                    <li class="nav-item active">
+                      <a class="nav-link font-nav color-2 p-l10" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link font-nav color-2 p-l10" href="pages/requisitos.html">Requisitos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link font-nav color-2 p-l10" href="pages/vehiculos.html">Vehículos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link font-nav color-2 p-l10" href="/pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-nav color-2 p-l10" href="/pages/contacto.html">Contacto</a>
+                      </li>
+                  </ul>
+                </div>
+              </nav>
+    </header>
+    <!-- FIN HEADER -->
+    <!-- BARRA DE LLAMADAS-->
+    <section class="container-fluid bg-bar bar">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-lg-end p-t3">
+                    <div class="text">
+                        <p class="p-t5 p-b5"><strong>Esperamos tu llamado para consultas y reservas</strong></p>
+                    </div>
+                    <div class="barWhatsapp mg-l10">
+                        <a href="https://wa.me/541121858330">
+                            <p>Whatsapp
+                                <i class="fab fa-whatsapp"></i>    
+                            </p>
+                        </a>
+                    </div>  
+                </div>
+            </div>
+    </section>
+    <!-- FIN BARRA DE LLAMADAS-->         
+    <!-- ENCABEZADO -->
+    <section class="container-fluid">
+            <div class="row justify-content-center text-center mg-t10">
+                <div class="col-ls-12 col-xs-12 text-center mg-10">
+                    <h1 class="color-1 text-u font-pb">Alquiler de autos</h1>
+                    <span class="font-23 text-u color-2">solicita tu cotización ahora!</span>
+                    <p class="font-16">Completa los pasos y te enviaremos la cotización de nuestro servicio de alquiler de autos.</p>
+                </div> 
+            </div>
+    </section>
+    <!-- FIN DEL ENCABEZADO-->
+    <!-- COTIZAR-->
+    <section class="container">
+            <div class="row justify-content-around mg-t30 mg-b20">
+                <!-- CARD RETIRAR-->
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine"class="card text-white bg-card mb-3 col-lg-4 col-xs-12" style="max-width: 18rem;">
+                    <div class="card-header text-center font-20 font-pb color-1">Retirar</div>
+                    <div class="card-body">
+                        <p class="mg-b5 font-14">Seleccione donde retira:</p>
+                        <form action="">
+                            <select name="retira" id="retira">
+                                <option value="oficina-central">Oficina Central</option>
+                                <option value="aeropuerto-ezeiza">Aeropuerto de Ezeiza</option>
+                                <option value="aeroparque-newbery">Aeroparque J. Newbery</option>
+                                <option value="buquebus">Buquebus</option>
+                                <option value="aeropuerto-palomar">Aeropuerto Palomar</option>
+                            </select>
+                        </form>
+                        <br>
+                        <p class="mg-b5 font-14">Seleccione cuando retira:</p>
+                        <form class="font-14" action="">
+                            <input type="date">
+                            <input type="time">  
+                        </form>
+                    </div>
+                </div>
+                <!-- FIN CARD RETIRAR -->
+                <!-- CARD DEVUELVE -->
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class="card text-white bg-card mb-3 col-lg-4 col-xs-12" style="max-width: 18rem;">
+                    <div class="card-header text-center font-20 font-pb color-1">Devuelve</div>
+                    <div class="card-body">
+                        <p class="mg-b5 font-14">Seleccione donde devuelve:</p>
+                        <form action="">
+                            <select name="devuelve" id="devuelve">
+                                <option value="oficina-central">Oficina Central</option>
+                                <option value="aeropuerto-ezeiza">Aeropuerto de Ezeiza</option>
+                                <option value="aeroparque-newbery">Aeroparque J. Newbery</option>
+                                <option value="aeropuerto-palomar">Aeropuerto Palomar</option>
+                                <option value="buquebus">Buquebus</option>
+                            </select>
+                        </form>
+                        <br>
+                        <p class="mg-b5 font-14">Seleccione cuando devuelve:</p>
+                        <form class="font-14" action="">
+                            <input type="date">
+                            <input type="time">  
+                        </form>
+                    </div>
+                </div>
+                <!-- FIN CARD DEVUELVE -->
+                <!-- CARD VEHÍCULO -->
+                <div data-aos="flip-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" class="card text-white bg-card mb-3 col-lg-4 col-xs-12" style="max-width: 18rem;">
+                    <div class="card-header text-center font-20 font-pb color-1">Vehículo</div>
+                    <div class="card-body">
+                        <p class="mg-b5 font-14">Seleccione vehículo:</p>
+                        <form class="mg-b20" action="">
+                            <select name="vehículo" id="vehículo">
+                                <option value="chevrolet-onix">Chevrolet Onix</option>
+                                <option value="chevrolet-prisma">Chevrolet Prisma</option>
+                                <option value="chevrolet-Spin">Chevrolet Spin</option>
+                            </select>
+                        </form>
+                        <div>
+                            <img width="221px" height="92" src="assets/img/chevrolet-onix.png" alt="chevrolet-onix">
+                        </div>
+                    </div>
+                </div>
+                <!-- FIN CARD VEHÍCULO -->
+            </div>    
+            <!-- SOLICITAR COTIZACION -->
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-xs-12 text-center">
+                    <button type="button" class="btn bg-button">
+                        <span class="font-18 color-2 text-u">Solicitar</span>
+                        <span class="font-18 text-u color-3 font-pb">cotización</span>
+                    </button>
+                </div>
+            </div>
+            <!-- FIN SOLICITAR COTIZACION-->    
+    </section>
+    <!-- FIN COTIZAR-->
+    <!-- TEXTO SECUNDARIO -->
+    <section class="container">
+            <div class="row justify-content-center mg-r10 mg-l10 mg-t10">
+                <div class="col-lg-12 col-xs-12 mg-20">
+                    <p class="font-12 text-center">
+                        ¡Aprovecha nuestras tarifas! Podemos ofrecerte el mejor precio en alquiler de autos. De manera rápida y sencilla podes obtener una cotización detallada o simplemente mayor información, completa el formulario y en breve nos comunicaremos. Nos encantaría asesorarte en tu próximo alquiler.
+                    </p>
+                </div>
+            </div>
+    </section>
+    <!-- FIN TEXTO SECUNDARIO -->      
+    <!-- PARRALLAX-->
+    <div class="parallax">
+    </div>
+    <!-- FIN PARALLAX-->
+    <!-- SOBRE NOSOTROS-->
+    <section class="container-fluid">
+            <div class="row align-items-center mg-t40 mg-b40 mg-l15 mg-r15">
+                <div class="col-lg-8 col-xs-12">
+                    <div data-aos="fade-up"
+                    data-aos-duration="3000">
+                        <h2 class="color-1 text-u font-20 font-pb">Sobre nosotros</h2>
+                    </div>
+                    <div data-aos="fade-up"
+                    data-aos-duration="3000" class="font-16">
+                        <p>
+                            <strong>Surcar rent a car</strong> es una empresa líder en alquiler de autos sin chofer en Buenos Aires Argentina. Con una alta experiencia en el mercado de rent a car.
+                        </P>
+                        <br> 
+                        <p>
+                            Nuestro principal objetivo, es brindarle siempre <strong>el mejor servicio al mejor precio del mercado</strong>, a fin de satisfacer las necesidades de nuestros clientes.
+                        </p>
+                        <br>
+                        <p>
+                            La flota de automóviles de <strong>Surcar rent a car</strong>, ofrece seguro, asistencia mecánica en todo el país. Todas las unidades son nuevas, para brindarle confort y seguridad, con una amplia gama de categorías de autos  que va de económica a premium.
+                            </p>
+                        <br>
+                        <p>
+                            En <strong>Surcar rent a car</strong>, contamos con personal capacitado para asesorarlo en su próximo viaje en Argentina, estableciendo relaciones estrechas y duraderas en el tiempo. Para su mayor comodidad, atendemos las 24 hs. los 365 días del año, con guardias permanentes.
+                        </p>
+                        <br>      
+                        <p>
+                            Para su mayor comodidad, realizamos servicio de entrega y retiro del vehículo en domicilio, aeropuerto, terminal marítima, hoteles o en el lugar que usted lo requiera. Deseamos otorgarle la mejor experiencia y el mejor servicio poniendo mucho énfasis en su satisfacción, no dude en consultarnos, nosotros siempre estaremos para ayudarte.
+                        </p>
+                        <br>
+                        <p>
+                            Cada vez es mayor el número de turistas argentinos o extranjeros y de Empresas nacionales e internacionales que eligen alquilar en <strong>Surcar rent a car</strong>, por el servicio de calidad, rapidez y seguridad que ofrecemos.
+                        </p>
+                        <br>
+                        <p>
+                            <strong>Somos su mejor opción en Argentina</strong>, cualquier consulta no dude en comunicarse con nosotros.
+                        </p>
+                        <br>
+                    </div>
+                </div>
+                <div data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500" class="col-lg-4 col-xs-12 text-center text-u mg-b20">
+                        <h3 class="mg-t30 font-20 font-pb">
+                            <i class="fas fa-check-circle color-1"></i>
+                            Servicio a domicilio
+                        </h3>
+                        <h3 class="mg-t30 font-20 font-pb">
+                            <i class="fas fa-check-circle color-1"></i>
+                            Entrega en Aeropuerto
+                        </h3>
+                        <h3 class="mg-t30 font-20 font-pb">
+                            <i class="fas fa-check-circle color-1"></i>
+                            El mejor precio
+                        </h3>
+                        <h3 class="mg-t30 font-20 font-pb">
+                            <i class="fas fa-check-circle color-1"></i>
+                            Servicios para empresas
+                        </h3>
+                </div>         
+            </div>            
+    </section>
+    <!-- FIN SOBRE NOSOTROS -->
+    <!-- BOTTOM WHATSAPP -->
+    <a class="btn-wsp" href="https://wa.me/541121858330">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <!-- FIN BOTTOM WHATSAPP -->
+    <!-- FOOTER -->
+    <footer class="container-fluid bg-foot">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <a href="#">
+                        <img class="logoSmall" src="assets/img/logoo.png" alt="logo">  
+                    </a>   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-xs-12 text-center mg-b20">
+                    <p class="font-20 color-1 mg-b5">Contáctanos</p>
+                    <div>
+                        <div>
+                            <div>
+                                <i class="fab fa-whatsapp color-1"></i>
+                                <a href="https://wa.me/541121858330" class="color-1">+54 9 11 2185-8330</a>  
+                            </div>
+                            <div>
+                                <i class="fas fa-envelope it color-1"></i>
+                                <a href="mailto:rentacarsurcar@gmail.com" class="color-1">rentacarsurcar@gmail.com</a>
+                            </div>         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 text-center mg-b20">  
+                    <p class="font-20 color-1 mg-b5">Aceptamos</p>
+                    <div>
+                        <i class="fab fa-cc-visa color-1"></i>
+                        <i class="fab fa-cc-mastercard color-1"></i>
+                        <i class="fab fa-cc-amex color-1"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12 text-center mg-b20">
+                    <p class="font-20 color-1 mg-b5">Seguinos</p>
+                    <div>
+                        <a class="footerSeguinos__redes" href="https://www.instagram.com/surcarrentacar/" target="_blank"><i class="fab fa-instagram color-1"></i></a>
+                        <a class="footerSeguinos__redes marg5" href="https://www.facebook.com/surcarrentacar" target="_blank"><i class="fab fa-facebook-square color-1 mg-l5"></i></a>
+                    </div>    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-xs-12 d-flex justify-content-center text-center boder-t">
+                    <p class="color-1 mg-10 font-12">Copyright 2021. Todos Los Derechos Reservados - Nicolás Agostino</p>
+                </div>
+            </div>
+    </footer>
+    <!-- FIN FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>  
+</body>
+</html>

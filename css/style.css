@@ -1,0 +1,410 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+@font-face {
+  font-family: "Poppins-light";
+  src: url(../assets/font/Poppins-Light.ttf); }
+
+@font-face {
+  font-family: "Poppins-regular";
+  src: url(../assets/font/Poppins-Regular.ttf); }
+
+@font-face {
+  font-family: "Poppins-semibold";
+  src: url(../assets/font/Poppins-SemiBold.ttf); }
+
+body {
+  background-image: url(../assets/img/darkness.png);
+  color: #adb5bd;
+  font-size: 1em !important;
+  font-family: "Poppins-light"; }
+
+p {
+  margin: 0px !important;
+  font-family: "Poppins-regular" !important;
+  color: #adb5bd; }
+
+a {
+  text-decoration: none !important; }
+
+.mynav a {
+  margin-left: 30px; }
+  .mynav a:hover {
+    border-bottom: 2px solid #00c2cb !important; }
+
+/* PADDING LEFT */
+.p-l10 {
+  padding-left: 10px !important; }
+
+.p-l15 {
+  padding-left: 15px; }
+
+.p-l30 {
+  padding-left: 30px; }
+
+/* PADDING RIGHT */
+.p-r15 {
+  padding-right: 15px; }
+
+.p-r30 {
+  padding-right: 30px; }
+
+/* PADDING TOP */
+.p-t2 {
+  padding-top: 2px; }
+
+.p-t3 {
+  padding-top: 3px; }
+
+.p-t10 {
+  padding-top: 10px; }
+
+/* PADDING BOTTOM */
+.p-b2 {
+  padding-bottom: 2px; }
+
+.p-b3 {
+  padding-bottom: 3px; }
+
+/* MARGIN */
+.mg-10 {
+  margin: 10px; }
+
+.mg-20 {
+  margin: 20px; }
+
+/* MARGIN TOP */
+.mg-t10 {
+  margin-top: 10px; }
+
+.mg-20 {
+  margin-top: 20px; }
+
+.mg-t30 {
+  margin-top: 30px; }
+
+.mg-t40 {
+  margin-top: 40px; }
+
+/* MARGIN BOTTOM */
+.mg-b5 {
+  margin-bottom: 5px !important; }
+
+.mg-b10 {
+  margin-bottom: 10px; }
+
+.mg-b20 {
+  margin-bottom: 20px; }
+
+.mg-b40 {
+  margin-bottom: 40px; }
+
+/* MARGIN LEFT */
+.mg-l5 {
+  margin-left: 5px; }
+
+.mg-l10 {
+  margin-left: 10px; }
+
+.mg-l15 {
+  margin-left: 15px; }
+
+/* MARGIN RIGHT */
+.mg-r10 {
+  margin-right: 10px; }
+
+.mg-r15 {
+  margin-right: 15px; }
+
+/* FONT-FAMILY */
+.font-pl {
+  font-family: "Poppins-light"; }
+
+.font-pr {
+  font-family: "Poppins-regular" !important; }
+
+.font-pb {
+  font-family: "Poppins-semibold"; }
+
+/* FONT-SIZE */
+.font-nav {
+  font-weight: 600 !important; }
+
+.font-12 {
+  font-size: 12px; }
+
+.font-14 {
+  font-size: 14px; }
+
+.font-16 {
+  font-size: 16px; }
+
+.font-18 {
+  font-size: 18px; }
+
+.font-20 {
+  font-size: 20px !important; }
+
+.font-23 {
+  font-size: 23px !important; }
+
+/* TEXTO UPPERCASE */
+.text-u {
+  text-transform: uppercase; }
+
+/* TEXTO CENTER */
+.text-center {
+  text-align: center; }
+
+/* BODER */
+.boder-t {
+  border-top: 1px solid #212529; }
+
+.boder {
+  border: 2px solid #00c2cb !important;
+  padding: 15px;
+  border-radius: 6px; }
+
+.boxBoder {
+  padding: 15px;
+  border-radius: 6px; }
+
+/* BACKGROUND */
+.bg-nav {
+  background: #4361ee; }
+
+.bg-bar {
+  background: #3f37c9; }
+
+.bg-card {
+  background: #3f37c9; }
+
+.bg-button {
+  background: #00c2cb; }
+
+.bg-ca {
+  background: #3a0ca3; }
+
+.bg-foot {
+  background: #3f37c9; }
+
+/* FONT-COLOR */
+.color-1 {
+  color: #00c2cb !important; }
+
+.color-2 {
+  color: white !important; }
+
+.color-3 {
+  color: #3a0ca3; }
+
+.color-4 {
+  color: #4361ee; }
+
+/* ICONOS */
+.fa-whatsapp {
+  font-size: 22px; }
+
+.fa-envelope {
+  font-size: 18px; }
+
+.fa-cc-visa {
+  font-size: 20px; }
+
+.fa-cc-mastercard {
+  font-size: 20px; }
+
+.fa-cc-amex {
+  font-size: 20px; }
+
+.fa-instagram {
+  font-size: 30px; }
+
+.fa-facebook-square {
+  font-size: 30px; }
+
+.fa-plane-departure {
+  font-size: 30px; }
+
+.fa-phone-volume {
+  font-size: 30px; }
+
+.fa-money-bill-alt {
+  font-size: 30px; }
+
+/* LOGO */
+.logo {
+  height: 100px; }
+
+/* BOTTOM */
+.boxBottom {
+  padding: 5px;
+  font-size: 12px;
+  background: #00c2cb;
+  width: 110px;
+  text-align: center;
+  border-radius: 5px; }
+  .boxBottom a {
+    color: #4361ee;
+    font-weight: bold; }
+
+/* PARALLAX */
+.parallax {
+  background-image: url(../assets/img/Chevrolet-Onix-2020-4.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 20em; }
+
+/* MENU HAMBURGUESA */
+.navbar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: inherit; }
+
+/* BARRA DE LLAMADAS */
+.bar {
+  height: 24px;
+  justify-content: end;
+  font-size: 12px; }
+  .bar .text {
+    display: flex;
+    align-items: center; }
+  .bar .barWhatsapp {
+    display: flex;
+    background: #20d466;
+    height: 18px;
+    border-radius: 6px;
+    width: 100px;
+    justify-content: center; }
+    .bar .barWhatsapp a p {
+      color: white;
+      font-size: 12px; }
+      .bar .barWhatsapp a p .fa-whatsapp {
+        font-size: 14px; }
+
+/* BOX CAR */
+.boxCar {
+  background: #3a0ca3;
+  width: 80%;
+  margin: auto;
+  border-radius: 6px; }
+  .boxCar div .imgCar {
+    height: 150px;
+    width: 290px; }
+
+/* BOX CONTACTO */
+.boxContact {
+  width: 700px;
+  height: 674px;
+  border-radius: 5px; }
+  .boxContact form {
+    padding: auto; }
+    .boxContact form div .enviar {
+      background: #00c2cb;
+      width: 180px;
+      padding: 5px;
+      font-size: 14px;
+      border-radius: 5px;
+      border: none;
+      color: #4361ee;
+      font-weight: bold; }
+  .boxContact div .map {
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+
+/* BOTTOM WHATSAPP */
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #20d466;
+  color: white;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 50; }
+  .btn-wsp .fa-whatsapp {
+    font-size: 35px; }
+
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+  h1 {
+    font-size: 30px !important; }
+  .mp-r10 {
+    padding-right: 10px; }
+  .mp-l10 {
+    padding-left: 10px; }
+  /* BARRA DE LLAMADAS */
+  .bar {
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    font-size: 8px; }
+    .bar .barWhatsapp {
+      display: flex;
+      background: #20d466;
+      height: 16px;
+      border-radius: 6px;
+      width: 100px;
+      justify-content: center; }
+      .bar .barWhatsapp a p {
+        color: white;
+        font-size: 10px; }
+        .bar .barWhatsapp a p .fa-whatsapp {
+          font-size: 8px; }
+  /* BOX CAR */
+  .boxCar {
+    display: flex;
+    flex-direction: column;
+    background: #3a0ca3;
+    width: 80%;
+    margin: auto;
+    border-radius: 6px; }
+    .boxCar .boxCarName {
+      padding-top: 5px; }
+    .boxCar div .imgCar {
+      height: 130px;
+      width: 250px; }
+    .boxCar .boxBottom {
+      margin-top: 10px;
+      margin-bottom: 5px; }
+  /* BOX CONTACTO */
+  .formulario {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+    .formulario .boxContact {
+      width: 100%;
+      height: 640px;
+      border-radius: 5px; }
+      .formulario .boxContact form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%; }
+        .formulario .boxContact form .box {
+          font-size: 14px !important;
+          width: 100%; }
+        .formulario .boxContact form div .enviar {
+          background: #00c2cb;
+          width: 180px;
+          padding: 5px;
+          font-size: 14px !important;
+          border-radius: 5px;
+          border: none;
+          color: #4361ee;
+          font-weight: bold; }
+      .formulario .boxContact div .map {
+        width: 100%;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px; } }
