@@ -31,7 +31,7 @@ a {
 .mynav a {
   margin-left: 30px; }
   .mynav a:hover {
-    border-bottom: 2px solid #00c2cb !important; }
+    color: #00c2cb !important; }
 
 /* PADDING LEFT */
 .p-l10 {
@@ -40,12 +40,18 @@ a {
 .p-l15 {
   padding-left: 15px; }
 
+.p-l20 {
+  padding-left: 20px; }
+
 .p-l30 {
   padding-left: 30px; }
 
 /* PADDING RIGHT */
 .p-r15 {
   padding-right: 15px; }
+
+.p-r20 {
+  padding-right: 20px; }
 
 .p-r30 {
   padding-right: 30px; }
@@ -59,6 +65,9 @@ a {
 
 .p-t10 {
   padding-top: 10px; }
+
+.p-t20 {
+  padding-top: 20px; }
 
 /* PADDING BOTTOM */
 .p-b2 {
@@ -159,7 +168,7 @@ a {
 
 /* BODER */
 .boder-t {
-  border-top: 1px solid #212529; }
+  border-top: 1px solid #473fe4; }
 
 .boder {
   border: 2px solid #00c2cb !important;
@@ -238,14 +247,14 @@ a {
   height: 100px; }
 
 /* BOTTOM */
-.boxBottom {
+.boxButton {
   padding: 5px;
   font-size: 12px;
   background: #00c2cb;
   width: 110px;
   text-align: center;
   border-radius: 5px; }
-  .boxBottom a {
+  .boxButton a {
     color: #4361ee;
     font-weight: bold; }
 
@@ -300,23 +309,27 @@ a {
     height: 150px;
     width: 290px; }
 
-/* BOX CONTACTO */
-.boxContact {
-  width: 700px;
-  height: 674px;
-  border-radius: 5px; }
-  .boxContact form {
-    padding: auto; }
-    .boxContact form div .enviar {
-      background: #00c2cb;
-      width: 180px;
-      padding: 5px;
-      font-size: 14px;
-      border-radius: 5px;
-      border: none;
-      color: #4361ee;
-      font-weight: bold; }
-  .boxContact div .map {
+.card-form {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #3a0ca3;
+  border-radius: 5px;
+  margin-top: 20px;
+  height: 830px; }
+  .card-form textarea {
+    width: 100%;
+    border-radius: .25rem; }
+  .card-form .enviar {
+    background: #00c2cb;
+    width: 180px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    color: #4361ee;
+    font-weight: bold; }
+  .card-form .map {
     width: 100%;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px; }
@@ -336,6 +349,22 @@ a {
   font-size: 30px;
   z-index: 50; }
   .btn-wsp .fa-whatsapp {
+    font-size: 35px; }
+
+.btn-subir {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  line-height: 45px;
+  bottom: 90px;
+  right: 26px;
+  background-color: #4361ee;
+  color: #00c2cb;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 50; }
+  .btn-subir .fa-angle-up {
     font-size: 35px; }
 
 @media only screen and (min-width: 0px) and (max-width: 768px) {
@@ -376,35 +405,6 @@ a {
     .boxCar div .imgCar {
       height: 130px;
       width: 250px; }
-    .boxCar .boxBottom {
+    .boxCar .boxButton {
       margin-top: 10px;
-      margin-bottom: 5px; }
-  /* BOX CONTACTO */
-  .formulario {
-    padding-left: 10px !important;
-    padding-right: 10px !important; }
-    .formulario .boxContact {
-      width: 100%;
-      height: 640px;
-      border-radius: 5px; }
-      .formulario .boxContact form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%; }
-        .formulario .boxContact form .box {
-          font-size: 14px !important;
-          width: 100%; }
-        .formulario .boxContact form div .enviar {
-          background: #00c2cb;
-          width: 180px;
-          padding: 5px;
-          font-size: 14px !important;
-          border-radius: 5px;
-          border: none;
-          color: #4361ee;
-          font-weight: bold; }
-      .formulario .boxContact div .map {
-        width: 100%;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px; } }
+      margin-bottom: 5px; } }
