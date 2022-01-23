@@ -246,7 +246,7 @@ a {
 .logo {
   height: 100px; }
 
-/* BOTTOM */
+/* BUTTON */
 .boxButton {
   padding: 5px;
   font-size: 12px;
@@ -379,7 +379,7 @@ a {
     height: 22px;
     display: flex;
     justify-content: center;
-    font-size: 8px; }
+    font-size: 10px; }
     .bar .barWhatsapp {
       display: flex;
       background: #20d466;
