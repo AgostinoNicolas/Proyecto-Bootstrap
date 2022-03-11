@@ -280,12 +280,15 @@ a {
 
 /* BARRA DE LLAMADAS */
 .bar {
-  height: 24px;
+  height: 20px;
   justify-content: end;
   font-size: 12px; }
   .bar .text {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+   }
   .bar .barWhatsapp {
     display: flex;
     background: #20d466;
@@ -376,7 +379,7 @@ a {
     padding-left: 10px; }
   /* BARRA DE LLAMADAS */
   .bar {
-    height: 22px;
+    height: 20px;
     display: flex;
     justify-content: center;
     font-size: 10px; }
